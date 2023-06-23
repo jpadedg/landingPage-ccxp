@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCXP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="menu">
+        <img src="/img/logo.svg" alt="logo">
+    </header>
+
+    <div id="cards">
+        <div id="bigCard">
+            <h1>REVIVA O ÉPICO</h1>
+            <h3>DE 01 A 04 DE DEZEMBRO</h3>
+
+            
+            <P>Você consegue sentir? 
+                É aquela sensação de finalmente 
+                poder falar em voz alta: 
+                "estamos em casa".
+                Sim, em dezembro de 2022,
+                teremos a volta da CCXP física. 
+                Mas não será qualquer CCXP,
+                vai ser a maior de todos 
+                os tempos. Prepare-se para
+                visitar seus universos favoritos
+                , explorar o Artists' Valley,
+                se emocionar nos auditórios e
+                encontrar aventuras épicas a
+                cada passo pelos nossos corredores.
+            </P>
+        </div>
+    
+        <div id="videoCard">
+            <div id="count">
+                <div>
+                    <h1 id="dias">00D</h1>
+                </div>
+                <div>
+                    <h1 id="horas">00H</h1>
+                </div>
+                <div>
+                    <h1 id="minutos">00M</h1>
+                </div>
+                <div>
+                    <h1 id="segundos">00S</h1>
+                </div>
+            </div>
+            <div>
+                <h3>PARA A MAIOR CCXP DE TODOS OS TEMPOS</h3>
+            </div>
+
+            <div id="video">
+                <video width="700px" controls loop><source src="Arlequina.mp4" type="video/mp4"></video>
+            </div>
+        </div>
+    </div>
+    
+    <section>
+        <div id="sessaoIngresso">
+            <h1>AINDA DA TEMPO DE GARANTIR O SEU, MAS CORRE!!!</h1>
+            <div id="ingressos">
+                <img class="cards-ingressos" src="img/qui.svg" id="quinta" alt="" onMouseOver="highlightCard('#quinta')" onMouseOut= "highlightCard('#quinta')" onclick="selectCard('#quinta')">
+                <img class="cards-ingressos" src="img/sex.svg" id="sexta" alt="" onMouseOver="highlightCard('#sexta')" onMouseOut= "highlightCard('#sexta')" onclick="selectCard('#sexta')">
+                <img class="cards-ingressos" src="img/sab.svg" id="sabado" alt="" onMouseOver="highlightCard('#sabado')" onMouseOut= "highlightCard('#sabado')" onclick="selectCard('#sabado')">
+                <img class="cards-ingressos" src="img/dom.svg" id="domingo" alt="" onMouseOver="highlightCard('#domingo')" onMouseOut= "highlightCard('#domingo')" onclick="selectCard('#domingo')">
+            </div>
+        </div>
+            <div id="botao">
+                <button onclick="showSelectedCards()">GARANTA O SEU!</button>
+            </div>      
+    </section>
+    
+    <div>
+        <form id="formulario" action="">
+            <input id="email" type="email" placeholder="Seu email" required/>
+            <input type="submit">
+        </form>
+    </div>
+
+
+
+    <script src="cronometro.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

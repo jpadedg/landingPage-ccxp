@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#menu{
+    width: 100% - 58px;
+    height: 91px;
+    padding-left: 58px;
+    padding-top: 27px;
+    background-color: #FFD900;
+}
+
+#bigCard{
+    background-color: #514988;
+    min-height: 694px;
+    height: 100%;
+    width: 100%;
+    min-width: 600px;
+}
+
+#bigCard img{
+    margin-left: 58px;
+}
+
+#bigCard h1{
+    font-family: Verdana;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 85px;
+    letter-spacing: 0em;
+    color: #F3C61F;
+    text-align: center;
+
+    padding: 31px 0 0 58px;
+}
+
+#bigCard h3{
+    text-align: center;
+    font-family: Verdana;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 85px;
+    letter-spacing: 0em;
+
+    color: #FFFFFF;
+}
+
+#bigCard p{
+    font-family: Verdana;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+
+    margin: 37px 64px 60px 92px;
+}
+
+#cards{
+   display: grid;
+   grid-auto-flow: column;
+   width: 100%;
+}
+
+#count {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+}
+
+#count h1{   
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 70px;
+    line-height: 85px;
+
+    color: #514988;
+}
+
+#videoCard {
+    margin-left: 10px;
+}
+
+#videoCard h3{   
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    color: #E33881;
+}
+
+#video video{
+    width: 920px;
+    height: 570px;
+}
+
+section{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section h1{
+    margin: 20px 0 20px 90px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+
+    color: #F3C61F;
+}
+
+#ingressos{
+    max-width: 900px;
+    margin-left: 81px;
+    margin-bottom: 38px;
+}
+
+section button{
+    width: 596px;
+    height: 148px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51px;
+    align-items: center;
+    text-align: center;
+    
+
+    color: #FFFFFF;
+    background: #514988;
+    border-radius: 20px;
+}
+
+section button:hover{
+    background: #5c49d6;
+    cursor: pointer;
+}
+
+.card-highlight{
+    box-shadow: 10px 10px 5px 10px #514988;
+}
+
+.card-selected{
+    border: 5px solid green;
+}
+
+#formulario{
+    height: 100%;
+    background-color: #F3C61F;
+    display: flex;
+    justify-content: space-around;
+}
+
+input{
+    background: #514988;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: 0pt;
+    margin: 30px;
+    width: 500px;
+    height: 70px;
+    font-size: 30px;
+    padding: 0 0 0 25px;
+}
