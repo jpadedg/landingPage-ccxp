@@ -20,6 +20,6 @@
 
 Liste o time responsável pelo desenvolvimento do projeto
 
-| [<br><sub>João Pedro Aded</sub>](https://github.com/jpadedg)
+[<br><sub>João Pedro Aded</sub>](https://github.com/jpadedg)
 
 Copyright :copyright: 2023 - Landing Page CCXP 
