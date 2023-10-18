@@ -15,8 +15,7 @@
 
 > Link do deploy da aplicação: https://landingpage-ccxp.vercel.app
 
-![landingpage-ccxp vercel app_](https://github.com/jpadedg/landingPage-ccxp/assets/57507707/99675a39-78db-49a4-8447-fba06d1eebdf)
-
+![Captura de tela 2023-10-18 121345](https://github.com/jpadedg/landingPage-ccxp/assets/57507707/993b51ee-d255-4402-979e-c9555289f71f)
 
 ## Pré-requisitos
 
